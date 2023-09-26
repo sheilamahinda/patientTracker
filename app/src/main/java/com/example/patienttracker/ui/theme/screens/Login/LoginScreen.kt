@@ -43,7 +43,7 @@ fun LoginScreen(navController: NavHostController) {
     var pass by remember { mutableStateOf(TextFieldValue("")) }
     var context = LocalContext.current
     val backgroundDrawable =
-        painterResource(id = R.drawable.bg2) // Replace with your background image resource
+        painterResource(id = R.drawable.bg3) // Replace with your background image resource
 
     Box(
         modifier = Modifier.fillMaxSize()

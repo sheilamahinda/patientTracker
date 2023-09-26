@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877521947378",
+    "project_id": "patienttracker-f8408",
+    "storage_bucket": "patienttracker-f8408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877521947378:android:f9757bc258a9d20fdd1e6b",
+        "android_client_info": {
+          "package_name": "com.example.patienttracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0EE0Oa8J5v4o5KZRB55Z4riKTU1Ym68U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

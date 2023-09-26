@@ -4,7 +4,12 @@ import android.app.ProgressDialog
 import android.content.Context
 import android.widget.Toast
 import androidx.navigation.NavHostController
+import com.example.patienttracker.model.User
 import com.example.patienttracker.navigation.ROUTE_PATIENT
+import com.example.patienttracker.navigation.ROUTE_REGISTER
+import com.example.patienttracker.navigation.ROUT_LOGIN
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 
 class AuthViewModel(var navController: NavHostController, var context: Context) {
     var mAuth: FirebaseAuth

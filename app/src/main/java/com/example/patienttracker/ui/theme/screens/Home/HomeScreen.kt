@@ -30,7 +30,7 @@ import com.example.patienttracker.navigation.ROUT_LOGIN
 fun Homescreen(navController: NavHostController) {
     val context = LocalContext.current
     val backgroundDrawable =
-        painterResource(id = R.drawable.bg1) // Replace with your background image resource
+        painterResource(id = R.drawable.bg3) // Replace with your background image resource
 
     Box(
         modifier = Modifier.fillMaxSize()
@@ -67,7 +67,7 @@ fun Homescreen(navController: NavHostController) {
             Spacer(modifier = Modifier.height(100.dp))
 
             Button(onClick = { navController.navigate(ROUTE_PATIENT) }) {
-                Text(text = "START QUESTIONS WITHOUT LOGGING IN")
+                Text(text = "SEARCH FOR PATIENT HERE")
             }
 
 
